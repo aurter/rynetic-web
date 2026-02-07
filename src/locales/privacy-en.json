@@ -1,0 +1,151 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: February 7, 2026",
+    "sections": {
+      "1": {
+        "heading": "1. Introduction",
+        "content": "Welcome to Rynetic (\"we,\" \"us,\" \"our,\" \"Company,\" or \"Service\"). Rynetic is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Discord bot, website, and related services.\n\nPlease read this Privacy Policy carefully. If you do not agree with our policies and practices, please do not use our Service. By accessing and using Rynetic, you acknowledge that you have read, understood, and agree to be bound by all the provisions of this Privacy Policy."
+      },
+      "2": {
+        "heading": "2. Information We Collect",
+        "intro": "We collect information about you in a variety of ways. The information we may collect includes:",
+        "2-1": {
+          "subheading": "2.1 Information Collected Automatically",
+          "items": [
+            {"title": "Discord User ID:", "desc": "When you invite Rynetic to your server or interact with the bot, we automatically collect your unique Discord User ID for identification purposes."},
+            {"title": "Guild/Server Information:", "desc": "We collect server (guild) IDs, server names, and member counts to store server-specific settings and configurations."},
+            {"title": "Message Metadata:", "desc": "We may collect metadata about messages (timestamps, message IDs) without storing message content unless explicitly needed for command execution."},
+            {"title": "Command Usage Data:", "desc": "We log which commands you use, how frequently you use them, and timestamps for analytics and improvement purposes."},
+            {"title": "IP Address and Device Information:", "desc": "We may collect your IP address, browser type, operating system, and device information when you visit our website."}
+          ]
+        },
+        "2-2": {
+          "subheading": "2.2 Information You Provide Voluntarily",
+          "items": [
+            {"title": "Command Arguments:", "desc": "Information you provide when using bot commands (e.g., usernames, messages for moderation actions)."},
+            {"title": "Support Communications:", "desc": "When you contact us via Discord support server or email, we collect the information you provide."},
+            {"title": "Preferences:", "desc": "Language preferences, timezone, and other customization settings you configure."}
+          ]
+        }
+      },
+      "3": {
+        "heading": "3. How We Use Your Information",
+        "intro": "We use the information we collect for various purposes:",
+        "items": [
+          {"title": "Service Provision:", "desc": "To provide, maintain, and improve the bot's functionality and features."},
+          {"title": "Personalization:", "desc": "To customize your experience with server-specific settings and preferences."},
+          {"title": "Communication:", "desc": "To send technical notifications, updates, and respond to support requests."},
+          {"title": "Analytics:", "desc": "To analyze usage patterns, identify trends, and understand how users interact with our Service."},
+          {"title": "Security:", "desc": "To detect, prevent, and address technical and security issues, and to protect against fraud and abuse."},
+          {"title": "Compliance:", "desc": "To comply with legal obligations and enforce our Terms of Service."},
+          {"title": "Server Management:", "desc": "To assist server administrators with moderation, member management, and server analytics."},
+          {"title": "Marketing:", "desc": "To send promotional materials and updates about new features (with your consent)."}
+        ]
+      },
+      "4": {
+        "heading": "4. How We Share Your Information",
+        "intro": "We may share information we have collected about you in certain situations:",
+        "items": [
+          {"title": "Discord Inc.:", "desc": "All information is processed through Discord's API and is subject to Discord's Terms of Service and Privacy Policy. Discord stores and processes your data according to their policies."},
+          {"title": "Server Administrators:", "desc": "Server administrators can view aggregated analytics about their server, including member statistics and command usage (without identifying individual users)."},
+          {"title": "Service Providers:", "desc": "We may share your information with third-party service providers who assist us in operating our Service, including hosting providers, analytics services, and database providers."},
+          {"title": "By Law or to Protect Rights:", "desc": "If we believe the release of information is necessary to comply with the law, enforce our policies, or protect the rights, property, and safety of ourselves and others."},
+          {"title": "Business Transfers:", "desc": "If Rynetic is involved in a merger, acquisition, bankruptcy, or other business transaction, your information may be transferred as part of that transaction."},
+          {"title": "With Your Consent:", "desc": "We may share information with third parties when you explicitly consent to such sharing."}
+        ]
+      },
+      "5": {
+        "heading": "5. Data Retention",
+        "intro": "We retain your information for as long as necessary to provide our Service and fulfill the purposes outlined in this Policy. Specifically:",
+        "items": [
+          {"title": "Server Data:", "desc": "Configuration and preference data is retained as long as the bot is active in your server."},
+          {"title": "Usage Logs:", "desc": "Command usage and analytics data is typically retained for 90 days unless required longer for security or legal purposes."},
+          {"title": "User IDs:", "desc": "Discord User IDs are retained to maintain service continuity and prevent abuse."},
+          {"title": "Support Communications:", "desc": "We retain support tickets and communications for 12 months or as required by law."}
+        ],
+        "outro": "You may request deletion of your data at any time by contacting us at our support server, though this may limit our ability to provide services to you."
+      },
+      "6": {
+        "heading": "6. Security of Your Information",
+        "intro": "We use administrative, technical, and physical security measures to help protect your personal information, including:",
+        "items": [
+          "Encryption of data in transit using SSL/TLS protocols",
+          "Secure database encryption for stored information",
+          "Regular security audits and vulnerability assessments",
+          "Access controls restricting data access to authorized personnel only",
+          "Secure authentication mechanisms for administrative access"
+        ],
+        "outro": "However, no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security. If you believe there has been a security breach, please notify us immediately at our support server."
+      },
+      "7": {
+        "heading": "7. Your Privacy Rights",
+        "intro": "Depending on your location, you may have certain rights regarding your personal information:",
+        "items": [
+          {"title": "Right to Access:", "desc": "You have the right to request access to the personal information we hold about you."},
+          {"title": "Right to Correction:", "desc": "You have the right to request correction of inaccurate or incomplete information."},
+          {"title": "Right to Deletion:", "desc": "You have the right to request deletion of your personal information (right to be forgotten)."},
+          {"title": "Right to Data Portability:", "desc": "You have the right to receive your data in a structured, commonly used, and machine-readable format."},
+          {"title": "Right to Opt-Out:", "desc": "You have the right to opt-out of certain data collection or processing activities."}
+        ],
+        "outro": "To exercise any of these rights, please contact us at our support server with clear documentation of your request."
+      },
+      "8": {
+        "heading": "8. Third-Party Links",
+        "content": "Our Service may contain links to third-party websites and services that are not operated by us. This Privacy Policy applies only to information collected through our Service. We are not responsible for the privacy practices of third-party sites, and we encourage you to review their privacy policies before providing any information to them."
+      },
+      "9": {
+        "heading": "9. Children's Privacy",
+        "content": "Rynetic is not intended for users under the age of 13 (or the minimum age of digital consent in your jurisdiction). We do not knowingly collect personal information from children under 13. If we become aware that we have collected information from a child under 13, we will take steps to delete such information promptly. If you are aware of any such collection, please notify us immediately at our support server."
+      },
+      "10": {
+        "heading": "10. California Privacy Rights (CCPA)",
+        "intro": "If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA):",
+        "items": [
+          "You have the right to know what personal information is collected, used, shared, or sold",
+          "You have the right to delete personal information collected from you",
+          "You have the right to opt-out of the selling or sharing of your personal information",
+          "You have the right to non-discrimination for exercising your CCPA rights"
+        ],
+        "outro": "To exercise these rights, please submit a verifiable consumer request at our support server. We will verify your identity and respond within 45 days."
+      },
+      "11": {
+        "heading": "11. European Privacy Rights (GDPR)",
+        "intro": "If you are located in the European Union or United Kingdom, the General Data Protection Regulation (GDPR) and UK Data Protection Act apply to our processing of your personal data. We process your information based on:",
+        "items": [
+          {"title": "Contractual Necessity:", "desc": "Processing is necessary to provide you with our Service"},
+          {"title": "Legal Obligation:", "desc": "Processing is required to comply with applicable law"},
+          {"title": "Legitimate Interests:", "desc": "Processing is necessary for our legitimate business interests"},
+          {"title": "Consent:", "desc": "You have provided explicit consent for specific processing activities"}
+        ],
+        "outro": "You have the right to lodge a complaint with your local data protection authority if you believe we have violated your rights."
+      },
+      "12": {
+        "heading": "12. Contact Us",
+        "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us:",
+        "supportServer": "Discord Support Server: https://discord.gg/UcvuXJvnCg",
+        "outro": "We will respond to your inquiry within 30 days of receipt. If you are not satisfied with our response, you may have the right to lodge a complaint with your local data protection authority."
+      },
+      "13": {
+        "heading": "13. Changes to This Privacy Policy",
+        "intro": "We reserve the right to modify this Privacy Policy at any time. If we make material changes to this policy, we will:",
+        "items": [
+          "Notify users through our Discord support server",
+          "Update the \"Last Updated\" date at the top of this policy",
+          "Request new consent if required by applicable law"
+        ],
+        "outro": "Your continued use of Rynetic following the posting of revised Privacy Policy means that you accept and agree to the changes. We encourage you to review this policy periodically to stay informed about how we protect your information."
+      },
+      "14": {
+        "heading": "14. Glossary",
+        "items": [
+          {"title": "Discord API:", "desc": "The interface that allows Rynetic to interact with Discord's services"},
+          {"title": "Guild:", "desc": "A Discord server"},
+          {"title": "Personal Information:", "desc": "Information that identifies you or can be used to identify you"},
+          {"title": "User ID:", "desc": "A unique numerical identifier assigned by Discord to each user"},
+          {"title": "Metadata:", "desc": "Data about other data (e.g., timestamp of a message without the message content itself)"}
+        ]
+      }
+    }
+  }
+}

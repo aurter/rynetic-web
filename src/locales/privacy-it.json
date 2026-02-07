@@ -1,0 +1,92 @@
+{
+  "privacy": {
+    "title": "Politica sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: 7 febbraio 2026",
+    "sections": {
+      "1": {
+        "heading": "1. Introduzione",
+        "content": "Rynetic (\"Noi\" o \"Bot\") si impegna a proteggere la vostra privacy. Questa Politica sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo i vostri dati quando utilizzate il nostro servizio Discord."
+      },
+      "2": {
+        "heading": "2. Informazioni che raccogliamo",
+        "intro": "Raccogliamo informazioni che fornite volontariamente quando interagite con Rynetic, tra cui:",
+        "items": [
+          "ID Discord e nome utente",
+          "Contenuto dei messaggi che richiedete elaborazione",
+          "Metadati dei comandi (timestamp, ID server)",
+          "Impostazioni delle preferenze dell'utente"
+        ]
+      },
+      "3": {
+        "heading": "3. Utilizzo delle informazioni",
+        "intro": "Utilizziamo le informazioni raccolte per:",
+        "items": [
+          "Fornire funzionalità di moderazione e intrattenimento",
+          "Migliorare e personalizzare l'esperienza del Bot",
+          "Monitorare i comportamenti violativi dei termini di servizio",
+          "Comunicare aggiornamenti importanti e notifiche di sicurezza",
+          "Conformarsi ai requisiti legali"
+        ]
+      },
+      "4": {
+        "heading": "4. Condivisione delle informazioni",
+        "content": "Non vendiamo, noleggiamo o scambiamo i vostri dati personali con terzi. Condividiamo dati con terzi solo quando legalmente obbligato (ad es., in caso di citazione giudiziaria) o come necessario per fornire i nostri servizi (ad es., hosting server)."
+      },
+      "5": {
+        "heading": "5. Conservazione dei dati",
+        "content": "Conserviamo i dati utente finché necessario per fornire i nostri servizi o come richiesto dalla legge. I dati inattivi possono essere cancellati dopo 12 mesi. Avete il diritto di richiedere la cancellazione dei vostri dati in qualsiasi momento."
+      },
+      "6": {
+        "heading": "6. Sicurezza dei dati",
+        "content": "Implementiamo misure di sicurezza tecniche, amministrative e fisiche per proteggere i vostri dati personali da accesso non autorizzato, alterazione, divulgazione o distruzione. Tuttavia, nessun metodo di trasmissione online è completamente sicuro."
+      },
+      "7": {
+        "heading": "7. Diritti sulla privacy",
+        "intro": "A seconda della vostra ubicazione, potete avere i seguenti diritti:",
+        "items": [
+          "Diritto di accedere ai vostri dati personali",
+          "Diritto di rettificare dati inesatti",
+          "Diritto di cancellazione ('diritto all'oblio')",
+          "Diritto di limitare l'elaborazione",
+          "Diritto di portabilità dei dati",
+          "Diritto di opporsi all'elaborazione"
+        ]
+      },
+      "8": {
+        "heading": "8. Link a terzi",
+        "content": "Rynetic può contenere link a siti web di terzi. Non siamo responsabili per le pratiche di privacy di questi siti. Ti incoraggiamo a leggere le loro politiche sulla privacy prima di fornire informazioni personali."
+      },
+      "9": {
+        "heading": "9. Privacy dei minori",
+        "content": "Rynetic non è destinato a persone sotto i 13 anni. Non raccogliamo consapevolmente informazioni personali da minori. Se scopriamo che abbiamo raccolto dati da un minore, li cancelleremo immediatamente."
+      },
+      "10": {
+        "heading": "10. CCPA - California Consumer Privacy Act",
+        "content": "Se siete residenti in California, avete diritti aggiuntivi secondo il CCPA, tra cui il diritto di sapere, il diritto di cancellazione, il diritto di rinuncia e il diritto di non discriminazione. Contattate il nostro servizio di supporto per esercitare questi diritti."
+      },
+      "11": {
+        "heading": "11. GDPR - General Data Protection Regulation",
+        "content": "Se siete residenti nell'UE, i vostri dati sono protetti dal GDPR. Abbiamo una base legittima per elaborare i vostri dati solo con il vostro consenso. Avete il diritto di revocare il consenso in qualsiasi momento contattando il nostro servizio di supporto."
+      },
+      "12": {
+        "heading": "12. Contattaci",
+        "intro": "Se avete domande o preoccupazioni sulla nostra Politica sulla Privacy, contattateci al nostro server di supporto:",
+        "supportServer": "Discord Support Server: https://discord.gg/UcvuXJvnCg"
+      },
+      "13": {
+        "heading": "13. Modifiche a questa politica",
+        "content": "Ci riserviamo il diritto di modificare questa Politica sulla Privacy in qualsiasi momento. Se apportiamo modifiche materiali, vi notificheremo attraverso il nostro server di supporto. Il continuo utilizzo di Rynetic dopo la pubblicazione delle modifiche significa che accettate le modifiche."
+      },
+      "14": {
+        "heading": "14. Glossario",
+        "intro": "Termini chiave utilizzati in questa politica:",
+        "items": [
+          "Dati personali: Qualsiasi informazione che identifica o può identificare un individuo",
+          "Elaborazione: Qualsiasi operazione eseguita su dati, inclusa raccolta, utilizzo e archiviazione",
+          "Consenso: Il vostro accordo consapevole e volontario per il trattamento dei dati personali",
+          "Server: Comunità Discord protetta da Rynetic"
+        ]
+      }
+    }
+  }
+}

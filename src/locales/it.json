@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "Rynetic",
+    "subtitle": "Bot Discord Avanzato per Moderazione e Divertimento",
+    "description": "Mantieni il tuo server sicuro e divertente con potenti strumenti di moderazione e comandi intrattenenti. Rynetic ha tutto ciò di cui hai bisogno.",
+    "addButton": "Aggiungi al Server",
+    "voteButton": "Vota il Bot",
+    "commands": "Comandi Disponibili",
+    "help": "Aiuto Generale",
+    "helpDescription": "Ricevi aiuto con i comandi di base del bot e l'utilizzo",
+    "moderation": "Moderazione",
+    "moderationDescription": "Banna, caccia, avverti e gestisci i membri del server",
+    "antiraid": "Anti-Raid",
+    "antiraidDescription": "Proteggi il tuo server dagli attacchi raid e dagli utenti indesiderati",
+    "fun": "Divertimento",
+    "funDescription": "Goditi meme, barzellette e comandi divertenti",
+    "user": "Utente",
+    "userDescription": "Profilo utente, statistiche e comandi personali",
+    "language": "Lingua",
+    "languageDescription": "Cambia la lingua del bot e le preferenze",
+    "dashboard": "Pannello di Controllo",
+    "dashboardDescription": "Gestisci le impostazioni del bot e la configurazione del server",
+    "footer": "© 2026 Rynetic. Un potente bot Discord per ogni server."
+  }
+}

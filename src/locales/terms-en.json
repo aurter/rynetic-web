@@ -1,0 +1,57 @@
+{
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: February 7, 2026",
+    "sections": {
+      "1": {
+        "heading": "1. Agreement to Terms",
+        "content": "By using Rynetic (the \"Bot\"), you agree to comply with and be bound by these Terms of Service (\"Terms\"). If you do not agree to abide by the above, please do not use this service."
+      },
+      "2": {
+        "heading": "2. Use License",
+        "content": "Permission is granted to use Rynetic for lawful purposes only. You agree not to use the Bot in any way that violates applicable law or the terms and conditions of Discord, Inc. Prohibited behavior includes harassing or causing distress or inconvenience to any person, obscene or offensive content, and disruption of normal flow of dialogue within our Bot's communication."
+      },
+      "3": {
+        "heading": "3. User Responsibilities",
+        "intro": "As a user of Rynetic, you agree to:",
+        "items": [
+          "Not use the Bot to harass, threaten, or abuse other users.",
+          "Not attempt to exploit, hack, or interfere with the Bot's functionality.",
+          "Not use the Bot to spread malware or harmful content.",
+          "Not spam or flood servers with commands.",
+          "Comply with all applicable laws and Discord's Terms of Service.",
+          "Not use the Bot to perform automated actions against Discord's policies."
+        ]
+      },
+      "4": {
+        "heading": "4. Moderation and Fun Features",
+        "content": "Rynetic provides moderation tools to help server administrators maintain their communities. Users are responsible for using moderation features responsibly and lawfully. The Bot's fun features are provided \"as is\" for entertainment purposes."
+      },
+      "5": {
+        "heading": "5. Disclaimer of Warranties",
+        "content": "Rynetic is provided \"AS IS\" and \"AS AVAILABLE\" without any warranties, express or implied. We do not warrant that the Bot will be uninterrupted or error-free. We are not liable for any damages resulting from the use or inability to use the Bot."
+      },
+      "6": {
+        "heading": "6. Limitation of Liability",
+        "content": "In no event shall Rynetic, its owners, or contributors be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to damages for loss of profits, goodwill, use, data, or other intangible losses."
+      },
+      "7": {
+        "heading": "7. Termination",
+        "content": "We reserve the right to terminate or suspend the bot service for any user or server that violates these Terms or engages in harmful behavior. Users who violate these Terms may be banned from using the Bot."
+      },
+      "8": {
+        "heading": "8. Changes to Terms",
+        "content": "We reserve the right to modify these Terms at any time. If we make material changes, we will notify users through our support server. Your continued use of Rynetic following the posting of revised Terms means that you accept and agree to the changes."
+      },
+      "9": {
+        "heading": "9. Governing Law",
+        "content": "These Terms and Conditions are governed by and construed in accordance with applicable international laws, and you irrevocably submit to the exclusive jurisdiction of the courts in that location."
+      },
+      "10": {
+        "heading": "10. Contact Information",
+        "intro": "If you have any questions about these Terms of Service, please contact us at our support server:",
+        "supportServer": "Discord Support Server: https://discord.gg/UcvuXJvnCg"
+      }
+    }
+  }
+}

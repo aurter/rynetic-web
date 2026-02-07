@@ -1,0 +1,151 @@
+{
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: 7 Şubat 2026",
+    "sections": {
+      "1": {
+        "heading": "1. Giriş",
+        "content": "Rynetic'e (\"biz\", \"bizim\", \"şirket\" veya \"hizmet\") hoş geldiniz. Rynetic, gizliliğinizi korumayı taahhüt eder. Bu Gizlilik Politikası, Discord botumuz, web sitemiz ve ilgili hizmetlerimizi kullanırken bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar.\n\nLütfen bu Gizlilik Politikasını dikkatlice okuyun. Politikalarımız ve uygulamalarımız hakkında anlaşmazlığınız varsa lütfen Hizmetimizi kullanmayın. Rynetic'e erişerek ve kullanarak, bu Gizlilik Politikasının tüm hükümlerini okuduğunuzu, anladığınızı ve kabul ettiğinizi onaylarsınız."
+      },
+      "2": {
+        "heading": "2. Topladığımız Bilgiler",
+        "intro": "Sizin hakkınızda çeşitli şekillerde bilgi toplayabiliriz. Toplayabileceğimiz bilgiler şunları içerir:",
+        "2-1": {
+          "subheading": "2.1 Otomatik Olarak Toplanan Bilgiler",
+          "items": [
+            {"title": "Discord Kullanıcı Kimliği:", "desc": "Rynetic'i sunucunuza davet ettiğinizde veya botu kullanırken, sizi tanımlamak için benzersiz Discord Kullanıcı Kimliğinizi otomatik olarak toplarız."},
+            {"title": "Guild/Sunucu Bilgileri:", "desc": "Sunucu (guild) kimliklerini, sunucu adlarını ve üye sayılarını sunucuya özgü ayarları ve yapılandırmalarını depolamak için toplarız."},
+            {"title": "İleti Üst Verileri:", "desc": "İletilerin içeriğini depolamadan, ileti zaman damgaları ve ileti kimliklerini komut yürütme için gerekli olmadıkça toplayabiliriz."},
+            {"title": "Komut Kullanım Verileri:", "desc": "Hangi komutları kullandığınızı, ne sıklıkla kullandığınızı ve analiz ve iyileştirme amaçları için zaman damgalarını kaydederiz."},
+            {"title": "IP Adresi ve Cihaz Bilgileri:", "desc": "Web sitemizi ziyaret ettiğinizde IP adresinizi, tarayıcı türünüzü, işletim sisteminizi ve cihaz bilgilerini toplayabiliriz."}
+          ]
+        },
+        "2-2": {
+          "subheading": "2.2 Gönüllü Olarak Sağladığınız Bilgiler",
+          "items": [
+            {"title": "Komut Argümanları:", "desc": "Bot komutlarını kullanırken sağladığınız bilgiler (örn. kullanıcı adları, moderasyon işlemleri için iletiler)."},
+            {"title": "Destek İletişimi:", "desc": "Discord destek sunucusu veya e-posta yoluyla bizimle iletişim kurduğunuzda sağladığınız bilgiler."},
+            {"title": "Tercihler:", "desc": "Dil tercihleri, saat dilimi ve yapılandırdığınız diğer özelleştirme ayarları."}
+          ]
+        }
+      },
+      "3": {
+        "heading": "3. Bilgilerinizi Nasıl Kullanırız",
+        "intro": "Topladığımız bilgileri çeşitli amaçlarla kullanırız:",
+        "items": [
+          {"title": "Hizmet Sağlanması:", "desc": "Botun işlevselliğini sağlamak, sürdürmek ve geliştirmek için."},
+          {"title": "Kişiselleştirme:", "desc": "Deneyiminizi sunucuya özgü ayarlar ve tercihlerle özelleştirmek için."},
+          {"title": "İletişim:", "desc": "Teknik bildirimler göndermek, güncellemeleri sağlamak ve destek isteklerine yanıt vermek için."},
+          {"title": "Analitik:", "desc": "Kullanım kalıplarını analiz etmek, eğilimleri belirlemek ve kullanıcıların Hizmetimizle nasıl etkileşim kurduğunu anlamak için."},
+          {"title": "Güvenlik:", "desc": "Teknik ve güvenlik sorunlarını tespit etmek, önlemek ve gidermek ile dolandırıcılık ve istismardan korunmak için."},
+          {"title": "Uyum:", "desc": "Yasal yükümlülüklere uyum sağlamak ve Hizmet Şartlarımızı uygulamak için."},
+          {"title": "Sunucu Yönetimi:", "desc": "Sunucu yöneticilerine moderasyon, üye yönetimi ve sunucu analitikleri konusunda yardımcı olmak için."},
+          {"title": "Pazarlama:", "desc": "Promosyon materyalleri göndermek ve yeni özellikler hakkında güncellemeler (izninizle) göndermek için."}
+        ]
+      },
+      "4": {
+        "heading": "4. Bilgilerinizi Nasıl Paylaşırız",
+        "intro": "Topladığımız bilgileri belirli durumlarda paylaşabiliriz:",
+        "items": [
+          {"title": "Discord Inc.:", "desc": "Tüm bilgiler Discord'un API'si aracılığıyla işlenir ve Discord'un Hizmet Şartları ve Gizlilik Politikasına tabidir. Discord, verilerinizi politikalarına göre depolar ve işler."},
+          {"title": "Sunucu Yöneticileri:", "desc": "Sunucu yöneticileri sunucuları hakkında toplu analitikleri görebilir (bireysel kullanıcıları tanımlamadan)."},
+          {"title": "Hizmet Sağlayıcıları:", "desc": "Hizmetimizi işletmede bize yardımcı olan üçüncü taraf hizmet sağlayıcılarla bilgi paylaşabiliriz."},
+          {"title": "Yasa Veya Hakları Korumak İçin:", "desc": "Yasalara uyum sağlamak, politikalarımızı uygulamak veya haklarımız ve diğerlerinin haklarını, mülkiyetini ve güvenliğini korumak gerekli ise."},
+          {"title": "İş Transferleri:", "desc": "Rynetic bir birleşme, devralma, iflas veya diğer iş işlemlerine tabi ise, bilgileriniz bu işlemin bir parçası olarak aktarılabilir."},
+          {"title": "Rızanızla:", "desc": "Açıkça rıza verdiğinizde üçüncü taraflarla bilgi paylaşabiliriz."}
+        ]
+      },
+      "5": {
+        "heading": "5. Veri Saklama",
+        "intro": "Bilgilerinizi Hizmetimizi sağlamak ve bu Politikada belirtilen amaçları yerine getirmek için gerekli olduğu kadar saklarız. Özellikle:",
+        "items": [
+          {"title": "Sunucu Verileri:", "desc": "Yapılandırma ve tercih verileri, bot sunucunuzda aktif olduğu sürece saklanır."},
+          {"title": "Kullanım Günlükleri:", "desc": "Komut kullanımı ve analitik verileri genellikle 90 gün boyunca saklanır."},
+          {"title": "Kullanıcı Kimlikleri:", "desc": "Discord Kullanıcı Kimlikleri hizmet sürekliliğini sürdürmek ve istismarı önlemek için saklanır."},
+          {"title": "Destek İletişimi:", "desc": "Destek biletlerini ve iletişimi 12 ay boyunca veya yasaların gerektirdiği kadar saklarız."}
+        ],
+        "outro": "Dilediğiniz zaman destek sunucumuzla iletişim kurarak verilerinizin silinmesini talep edebilirsiniz, ancak bu hizmet sağlama yeteneğimizi sınırlayabilir."
+      },
+      "6": {
+        "heading": "6. Bilgilerinizin Güvenliği",
+        "intro": "Kişisel bilgilerinizi korumaya yardımcı olmak için idari, teknik ve fiziksel güvenlik önlemleri kullanırız:",
+        "items": [
+          "Transit sırasında SSL/TLS protokollerini kullanarak veri şifreleme",
+          "Depolanan bilgiler için güvenli veritabanı şifreleme",
+          "Düzenli güvenlik denetimleri ve güvenlik açığı değerlendirmeleri",
+          "Veri erişimini yalnızca yetkili personelle sınırlayan erişim kontrolleri",
+          "İdari erişim için güvenli kimlik doğrulama mekanizmaları"
+        ],
+        "outro": "Bununla birlikte, İnternet üzerinde hiçbir iletim yöntemi veya elektronik depolama yöntemi %100 güvenli değildir. Kişisel bilgilerinizi korumak için ticari olarak kabul edilebilir araçları kullanmaya çalışsak da, mutlak güvenliğini garanti edemeyiz. Bir güvenlik ihlali olduğunu düşünüyorsanız, lütfen bunu hemen destek sunucumuzda bildirin."
+      },
+      "7": {
+        "heading": "7. Gizlilik Haklarınız",
+        "intro": "Konumunuza bağlı olarak, kişisel bilgileriniz hakkında belirli haklara sahip olabilirsiniz:",
+        "items": [
+          {"title": "Erişim Hakkı:", "desc": "Hakkınızda sahip olduğumuz kişisel bilgilere erişim talep etme hakkınız vardır."},
+          {"title": "Düzeltme Hakkı:", "desc": "Yanlış veya eksik bilgilerin düzeltilmesini talep etme hakkınız vardır."},
+          {"title": "Silinme Hakkı:", "desc": "Kişisel bilgilerinizin silinmesini talep etme hakkınız vardır (unutulma hakkı)."},
+          {"title": "Veri Taşınabilirliği Hakkı:", "desc": "Verilerinizi yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir biçimde alma hakkınız vardır."},
+          {"title": "Rıza Çekilme Hakkı:", "desc": "Belirli veri toplama veya işleme faaliyetlerinden vazgeçme hakkınız vardır."}
+        ],
+        "outro": "Bu haklardan herhangi birini kullanmak için lütfen destek sunucumuzla açık belgeler ile iletişim kurun."
+      },
+      "8": {
+        "heading": "8. Üçüncü Taraf Bağlantıları",
+        "content": "Hizmetimiz, bizim tarafından işletilmeyen üçüncü taraf web sitelerine ve hizmetlerine bağlantılar içerebilir. Bu Gizlilik Politikası yalnızca Hizmetimiz aracılığıyla toplanan bilgilere uygulanır. Üçüncü taraf sitelerin gizlilik uygulamalarından sorumlu değiliz ve onlara bilgi vermeden önce gizlilik politikalarını incelemenizi öneriyoruz."
+      },
+      "9": {
+        "heading": "9. Çocukların Gizliliği",
+        "content": "Rynetic, 13 yaşın altındaki kullanıcılar (veya yargı bölgenizde dijital rıza yaşının minimumu) için tasarlanmamıştır. 13 yaşın altındaki çocuklardan bilinçli olarak kişisel bilgi toplamayız. 13 yaşın altındaki bir çocuktan bilgi topladığımızı fark edersek, bu tür bilgileri hemen silme adımları atarız. Herhangi bir şekilde bunu fark ederseniz lütfen bunu hemen destek sunucumuzda bildirin."
+      },
+      "10": {
+        "heading": "10. California Gizlilik Hakları (CCPA)",
+        "intro": "Kaliforniya sakiniyseniz, Kaliforniya Tüketici Gizlilik Yasası (CCPA) uyarınca belirli haklara sahipsiniz:",
+        "items": [
+          "Toplanan, kullanılan, paylaşılan veya satılan kişisel bilgilerin neler olduğunu öğrenme hakkınız vardır",
+          "Sizden toplanan kişisel bilgileri silme hakkınız vardır",
+          "Kişisel bilgilerinizin satışından veya paylaşılmasından vazgeçme hakkınız vardır",
+          "CCPA haklarınızı kullanmak için ayrımcılığa uğramamızı isteme hakkınız vardır"
+        ],
+        "outro": "Bu hakları kullanmak için lütfen destek sunucumuzda doğrulanabilir bir tüketici talebini gönderin. Kimliğinizi doğrulayacağız ve 45 gün içinde yanıt vereceğiz."
+      },
+      "11": {
+        "heading": "11. Avrupa Gizlilik Hakları (GDPR)",
+        "intro": "Avrupa Birliği veya Birleşik Krallık'ta ikamet ediyorsanız, Genel Veri Koruma Yönetmeliği (GDPR) ve Birleşik Krallık Veri Koruma Yasası kişisel verilerinizin işlenmesi için geçerlidir. Bilgilerinizi şunlara dayanarak işleriz:",
+        "items": [
+          {"title": "Sözleşmesel Gereklilik:", "desc": "İşleme, size Hizmetimizi sağlamak için gereklidir"},
+          {"title": "Yasal Yükümlülük:", "desc": "İşleme, uygulanabilir yasalara uyum sağlamak için gereklidir"},
+          {"title": "Meşru Çıkarlar:", "desc": "İşleme, meşru ticari çıkarlarımız için gereklidir"},
+          {"title": "Rıza:", "desc": "Belirli işleme faaliyetleri için açık rıza verdiniz"}
+        ],
+        "outro": "Haklarımızı ihlal ettiğimizi düşünüyorsanız, yerel veri koruma otoritesine şikayet etme hakkınız vardır."
+      },
+      "12": {
+        "heading": "12. Bizimle İletişim Kurun",
+        "intro": "Bu Gizlilik Politikası veya gizlilik uygulamalarımız hakkında sorularınız, endişeleriniz veya taleplerinizhavt varsa lütfen bizimle iletişim kurun:",
+        "supportServer": "Discord Destek Sunucusu: https://discord.gg/UcvuXJvnCg",
+        "outro": "Sorgunuza alındığı tarihinden itibaren 30 gün içinde yanıt vereceğiz. Yanıtımızdan memnun değilseniz, yerel veri koruma otoritesine şikayet etme hakkına sahip olabilirsiniz."
+      },
+      "13": {
+        "heading": "13. Bu Gizlilik Politikasındaki Değişiklikler",
+        "intro": "Bu Gizlilik Politikasını dilediğimiz zaman değiştirme hakkını saklı tutarız. Bu politikada önemli değişiklikler yaparsak:",
+        "items": [
+          "Discord destek sunucumuz aracılığıyla kullanıcıları bildireceğiz",
+          "Bu sayfanın üstündeki \"Son Güncelleme\" tarihini güncelleyeceğiz",
+          "Gerekli olduğunda yeni rıza isteyeceğiz"
+        ],
+        "outro": "Rynetic'i revize edilmiş Gizlilik Politikası yayınlandıktan sonra kullanmaya devam etmeniz, değişiklikleri kabul ettiğinizi ve onayladığınızı gösterir. Bilgilerinizi nasıl koruduğumuz konusunda bilgi sahibi olmak için bu politikayı periyodik olarak incelemenizi öneriyoruz."
+      },
+      "14": {
+        "heading": "14. Sözlük",
+        "items": [
+          {"title": "Discord API:", "desc": "Rynetic'in Discord'un hizmetleriyle etkileşim kurmasını sağlayan arabirim"},
+          {"title": "Guild:", "desc": "Bir Discord sunucusu"},
+          {"title": "Kişisel Bilgiler:", "desc": "Sizi tanımlayan veya tanımlamak için kullanılabilecek bilgiler"},
+          {"title": "Kullanıcı Kimliği:", "desc": "Discord tarafından her kullanıcıya atanan benzersiz sayısal tanımlayıcı"},
+          {"title": "Üst Veriler:", "desc": "Diğer veriler hakkında veriler (örn. ileti içeriği olmaksızın iletinin zaman damgası)"}
+        ]
+      }
+    }
+  }
+}

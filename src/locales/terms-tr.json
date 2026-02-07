@@ -1,0 +1,57 @@
+{
+  "terms": {
+    "title": "Hizmet Şartları",
+    "lastUpdated": "Son Güncelleme: 7 Şubat 2026",
+    "sections": {
+      "1": {
+        "heading": "1. Şartlara Anlaşma",
+        "content": "Rynetic'i (\"Bot\") kullanarak, bu Hizmet Şartları (\"Şartlar\") ile uyumlu olmayı ve bunlara bağlı olmayı kabul edersiniz. Yukarıdakine katılmıyorsanız, lütfen bu hizmeti kullanmayın."
+      },
+      "2": {
+        "heading": "2. Kullanım Lisansı",
+        "content": "Rynetic'i yalnızca yasalara uygun amaçlarla kullanma izni verilmiştir. Botu, uygulanabilir yasaları veya Discord, Inc.'in hizmet şartlarını ihlal edecek herhangi bir şekilde kullanmamayı kabul edersiniz. Yasaklanan davranışlar arasında herhangi bir kişiye rahatsızlık vermek, aşağılayıcı veya saldırgan içerik ve Bot'un iletişiminde normal akışın bozulması yer alır."
+      },
+      "3": {
+        "heading": "3. Kullanıcı Sorumlulukları",
+        "intro": "Rynetic kullanıcısı olarak aşağıdakiler için kabul edersiniz:",
+        "items": [
+          "Botu diğer kullanıcılara taciz etmek, tehdit etmek veya kötüye kullanmak için kullanmamak.",
+          "Botu istismar etmeye, hacklemeye veya işlevselliğine müdahale etmeye çalışmamak.",
+          "Botu kötü amaçlı yazılım veya zararlı içerik yaymak için kullanmamak.",
+          "Sunuculara komutlar ile spam yapmamak veya taşmak.",
+          "Tüm uygulanabilir yasalara ve Discord'un Hizmet Şartlarına uymak.",
+          "Botu Discord politikalarına karşı otomatik eylemler gerçekleştirmek için kullanmamak."
+        ]
+      },
+      "4": {
+        "heading": "4. Moderasyon ve Eğlence Özellikleri",
+        "content": "Rynetic, sunucu yöneticilerine toplulukları yönetmelerine yardımcı olmak için moderasyon araçları sağlar. Kullanıcılar moderasyon özelliklerini sorumlu ve yasal bir şekilde kullanmaktan sorumludur. Bot'un eğlence özellikleri eğlence amaçları için \"olduğu gibi\" sağlanır."
+      },
+      "5": {
+        "heading": "5. Garanti Reddi",
+        "content": "Rynetic \"OLDUĞU GİBİ\" ve \"MEVCUT OLDUĞU KADARIYŁA\" herhangi bir garanti olmaksızın sağlanır. Botu'nun kesintisiz veya hatasız olacağını garanti etmiyoruz. Bot'u kullanmaktan veya kullanamamaktan kaynaklanan herhangi bir zarardan sorumlu değiliz."
+      },
+      "6": {
+        "heading": "6. Sorumluluk Sınırlaması",
+        "content": "Rynetic, sahipleri veya katkıda bulunanlar hiçbir koşulda dolaylı, tesadüfi, özel, sonuç ve cezai zararlardan sorumlu olmayacaktır; kar kayıpları, iyi niyet kaybı, kullanım, veri veya diğer maddi olmayan kayıplar da dahil olmak üzere."
+      },
+      "7": {
+        "heading": "7. Sonlandırma",
+        "content": "Bu Şartları ihlal eden veya zararlı davranışlarda bulunan herhangi bir kullanıcı veya sunucu için bot hizmetini sonlandırma veya askıya alma hakkını saklı tutarız. Bu Şartları ihlal eden kullanıcılar Bot'u kullanmaktan yasaklanabilir."
+      },
+      "8": {
+        "heading": "8. Şartlardaki Değişiklikler",
+        "content": "Bu Şartları dilediğimiz zaman değiştirme hakkını saklı tutarız. Önemli değişiklikler yaparsak, destek sunucumuz aracılığıyla kullanıcıları bildireceğiz. Rynetic'i revize edilmiş Şartlar yayınlandıktan sonra kullanmaya devam etmeniz, değişiklikleri kabul ettiğinizi ve onayladığınız anlamına gelir."
+      },
+      "9": {
+        "heading": "9. Yönetim Hukuku",
+        "content": "Bu Şartlar ve Koşullar uygulanabilir uluslararası yasalar tarafından yönetilir ve kontrol edilir; ve ilgili konumdaki mahkemelerin münhasır yetkisine geri dönülemez şekilde tabisiniz."
+      },
+      "10": {
+        "heading": "10. İletişim Bilgileri",
+        "intro": "Bu Hizmet Şartları hakkında sorularınız varsa, lütfen destek sunucumuzda bize ulaşın:",
+        "supportServer": "Discord Destek Sunucusu: https://discord.gg/UcvuXJvnCg"
+      }
+    }
+  }
+}

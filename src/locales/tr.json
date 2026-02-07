@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "Rynetic",
+    "subtitle": "Gelişmiş Moderation & Eğlence Discord Botu",
+    "description": "Sunucunuzu güvenli ve eğlenceli tutun güçlü moderasyon araçları ve eğlenceli komutlarla. Rynetic'in ihtiyacınız olan her şeyi var.",
+    "addButton": "Sunucuya Ekle",
+    "voteButton": "Bota Oy Ver",
+    "commands": "Mevcut Komutlar",
+    "help": "Genel Yardım",
+    "helpDescription": "Bot komutları ve kullanım hakkında yardım alın",
+    "moderation": "Moderasyon",
+    "moderationDescription": "Üyeleri banlayın, atın, uyarın ve yönetin",
+    "antiraid": "Anti-Raid",
+    "antiraidDescription": "Sunucunuzu raid saldırılarından koruyun",
+    "fun": "Eğlence",
+    "funDescription": "Meme, şaka ve eğlenceli komutlardan yararlanın",
+    "user": "Kullanıcı",
+    "userDescription": "Profil, istatistikler ve kişisel komutlar",
+    "language": "Dil",
+    "languageDescription": "Bot dilini ve tercihlerini değiştirin",
+    "dashboard": "Yönetim Paneli",
+    "dashboardDescription": "Bot ayarlarını ve sunucu yapılandırmasını yönetin",
+    "footer": "© 2025 Rynetic. Her sunucu için güçlü bir Discord botu."
+  }
+}

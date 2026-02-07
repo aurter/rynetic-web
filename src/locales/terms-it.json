@@ -1,0 +1,57 @@
+{
+  "terms": {
+    "title": "Condizioni di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: 7 febbraio 2026",
+    "sections": {
+      "1": {
+        "heading": "1. Accordo alle Condizioni",
+        "content": "Utilizzando Rynetic (il \"Bot\"), accetti di conformarti e essere vincolato da queste Condizioni di Servizio (\"Condizioni\"). Se non accetti le condizioni di cui sopra, non utilizzare questo servizio."
+      },
+      "2": {
+        "heading": "2. Licenza d'Uso",
+        "content": "Il permesso è concesso per utilizzare Rynetic solo per scopi leciti. Accetti di non utilizzare il Bot in alcun modo che violi la legge applicabile o i termini e le condizioni di Discord, Inc. Il comportamento proibito include molestare o causare disagio a qualsiasi persona, contenuto osceno o offensivo e interruzione del normale flusso di dialogo all'interno della comunicazione del nostro Bot."
+      },
+      "3": {
+        "heading": "3. Responsabilità dell'Utente",
+        "intro": "Come utente di Rynetic, accetti di:",
+        "items": [
+          "Non utilizzare il Bot per molestare, minacciare o abusare di altri utenti.",
+          "Non tentare di sfruttare, hackerare o interferire con la funzionalità del Bot.",
+          "Non utilizzare il Bot per diffondere malware o contenuti dannosi.",
+          "Non inviare spam o inondare i server con comandi.",
+          "Conformarsi a tutte le leggi applicabili e ai Termini di Servizio di Discord.",
+          "Non utilizzare il Bot per eseguire azioni automatizzate contro le politiche di Discord."
+        ]
+      },
+      "4": {
+        "heading": "4. Funzionalità di Moderazione e Intrattenimento",
+        "content": "Rynetic fornisce strumenti di moderazione per aiutare gli amministratori dei server a mantenere le loro comunità. Gli utenti sono responsabili dell'utilizzo responsabile e legale delle funzionalità di moderazione. Le funzionalità divertenti del Bot sono fornite \"così come sono\" a fini di intrattenimento."
+      },
+      "5": {
+        "heading": "5. Esclusione di Garanzie",
+        "content": "Rynetic è fornito \"COSÌ COM'È\" e \"COME DISPONIBILE\" senza alcuna garanzia, espressa o implicita. Non garantiamo che il Bot sia ininterrotto o privo di errori. Non siamo responsabili per nessun danno derivante dall'uso o dall'impossibilità di utilizzare il Bot."
+      },
+      "6": {
+        "heading": "6. Limitazione di Responsabilità",
+        "content": "In nessun caso Rynetic, i suoi proprietari o i contributori saranno responsabili per danni indiretti, accidentali, speciali, consequenziali o punitivi, inclusi ma non limitati a danni per perdita di profitti, avviamento, uso, dati o altre perdite immateriali."
+      },
+      "7": {
+        "heading": "7. Terminazione",
+        "content": "Ci riserviamo il diritto di terminare o sospendere il servizio bot per qualsiasi utente o server che violi queste Condizioni o si impegni in un comportamento dannoso. Gli utenti che violano queste Condizioni possono essere banditi dall'utilizzo del Bot."
+      },
+      "8": {
+        "heading": "8. Modifiche alle Condizioni",
+        "content": "Ci riserviamo il diritto di modificare queste Condizioni in qualsiasi momento. Se apportiamo modifiche sostanziali, avviseremo gli utenti tramite il nostro server di supporto. L'uso continuato di Rynetic dopo la pubblicazione delle Condizioni riviste significa che accetti e concordi con i cambiamenti."
+      },
+      "9": {
+        "heading": "9. Legge Applicabile",
+        "content": "Questi Termini e Condizioni sono disciplinati e interpretati in conformità alle leggi internazionali applicabili, e vi sottomettete irrevocabilmente alla giurisdizione esclusiva dei tribunali in quella posizione."
+      },
+      "10": {
+        "heading": "10. Informazioni di Contatto",
+        "intro": "Se hai domande su queste Condizioni di Servizio, contattaci tramite il nostro server di supporto:",
+        "supportServer": "Discord Support Server: https://discord.gg/UcvuXJvnCg"
+      }
+    }
+  }
+}

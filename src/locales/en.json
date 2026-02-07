@@ -1,0 +1,25 @@
+{
+  "home": {
+    "title": "Rynetic",
+    "subtitle": "Advanced Moderation & Fun Discord Bot",
+    "description": "Keep your server safe and fun with powerful moderation tools and entertaining commands. Rynetic has everything you need.",
+    "addButton": "Add to Server",
+    "voteButton": "Vote Bot",
+    "commands": "Available Commands",
+    "help": "General Help",
+    "helpDescription": "Get help with basic bot commands and usage",
+    "moderation": "Moderation",
+    "moderationDescription": "Ban, kick, warn and manage your server members",
+    "antiraid": "Anti-Raid",
+    "antiraidDescription": "Protect your server from raid attacks and unwanted users",
+    "fun": "Fun",
+    "funDescription": "Enjoy memes, jokes, and entertaining commands",
+    "user": "User",
+    "userDescription": "User profile, stats and personal commands",
+    "language": "Language",
+    "languageDescription": "Change bot language and preferences",
+    "dashboard": "Dashboard",
+    "dashboardDescription": "Manage bot settings and server configuration",
+    "footer": "© 2026 Rynetic. A powerful Discord bot for every server."
+  }
+}

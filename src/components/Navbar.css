@@ -1,0 +1,240 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid #9333ea;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #9333ea 0%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.3s ease;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
+}
+
+.navbar-logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.language-selector-item {
+  position: relative;
+}
+
+.language-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid #9333ea;
+  border-radius: 8px;
+  padding: 8px;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 1001;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.language-option {
+  padding: 10px 16px;
+  background: transparent;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-family: inherit;
+}
+
+.language-option:hover {
+  background: rgba(147, 51, 234, 0.2);
+  color: #9333ea;
+}
+
+.language-option.active {
+  background: #9333ea;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .language-dropdown {
+    position: static;
+    background: rgba(50, 30, 80, 0.9);
+    border: none;
+    border-top: 1px solid #9333ea;
+    margin-top: 8px;
+    padding: 8px 0;
+    min-width: auto;
+    box-shadow: none;
+  }
+
+  .language-option {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 0;
+  }
+}
+
+.navbar-link {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.navbar-link:hover {
+  color: #9333ea;
+  background: rgba(147, 51, 234, 0.1);
+}
+
+.navbar-link.navbar-invite {
+  background: linear-gradient(135deg, #9333ea 0%, #a855f7 100%);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+}
+
+.navbar-link.navbar-invite:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(147, 51, 234, 0.4);
+  color: white;
+  background: linear-gradient(135deg, #7e22ce 0%, #9333ea 100%);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #9333ea;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(8px, -8px);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.95);
+    border-bottom: 1px solid #9333ea;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .navbar-menu.active {
+    max-height: 300px;
+  }
+
+  .navbar-item {
+    width: 100%;
+  }
+
+  .navbar-link {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 0;
+    display: block;
+  }
+
+  .navbar-link.navbar-invite {
+    background: linear-gradient(135deg, #9333ea 0%, #a855f7 100%);
+  }
+}
