@@ -12,7 +12,11 @@ const Navbar = ({ setCurrentPage }) => {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [language, setLanguage] = useState(localStorage.getItem('language') || 'en');
 
-  const handleNavClick = (page) => {
+  const handleNavClick = (page, path = '/') => {
+    // push new history entry so direct URLs work and back/forward behaves
+    if (window.location.pathname !== path) {
+      window.history.pushState({}, '', path);
+    }
     setCurrentPage(page);
     setIsOpen(false);
     window.scrollTo(0, 0);
@@ -56,7 +60,7 @@ const Navbar = ({ setCurrentPage }) => {
           <li className="navbar-item">
             <button 
               className="navbar-link"
-              onClick={() => handleNavClick('home')}
+              onClick={() => handleNavClick('home', '/')}
             >
               Home
             </button>
@@ -65,20 +69,22 @@ const Navbar = ({ setCurrentPage }) => {
             <a href="https://discord.gg/UcvuXJvnCg" target="_blank" rel="noopener noreferrer" className="navbar-link">Support</a>
           </li>
           <li className="navbar-item">
-            <button 
+            <a
+              href="/privacy-policy"
               className="navbar-link"
-              onClick={() => handleNavClick('privacy')}
+              onClick={(e) => { e.preventDefault(); handleNavClick('privacy', '/privacy-policy'); }}
             >
               Privacy
-            </button>
+            </a>
           </li>
           <li className="navbar-item">
-            <button 
+            <a
+              href="/terms"
               className="navbar-link"
-              onClick={() => handleNavClick('terms')}
+              onClick={(e) => { e.preventDefault(); handleNavClick('terms', '/terms'); }}
             >
               Terms
-            </button>
+            </a>
           </li>
           <li className="navbar-item language-selector-item">
             <button 
