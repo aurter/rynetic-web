@@ -1,49 +1,62 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+	const [page, setPage] = useState('home');
 
-  useEffect(() => {
-    const resolvePath = (pathname) => {
-      if (!pathname || pathname === '/') return 'home';
-      const p = pathname.toLowerCase();
-      if (p.startsWith('/terms')) return 'terms';
-      if (p.startsWith('/privacy-policy') || p.startsWith('/privacy') || p.startsWith('/policy')) return 'privacy';
-      return 'home';
-    };
+	const updatePageFromPath = () => {
+		const path = window.location.pathname.replace(/^\//, '') || 'home';
+		if (path === 'privacy-policy') setPage('privacy');
+		else if (path === 'terms') setPage('terms');
+		else if (path === 'dashboard') setPage('dashboard');
+		else setPage('home');
+	};
 
-    const setFromLocation = () => setCurrentPage(resolvePath(window.location.pathname));
-    setFromLocation();
+	useEffect(() => {
+		updatePageFromPath();
+	}, []);
 
-    const handlePop = () => setFromLocation();
-    window.addEventListener('popstate', handlePop);
-    return () => window.removeEventListener('popstate', handlePop);
-  }, []);
+	useEffect(() => {
+		const handlePopState = () => {
+			updatePageFromPath();
+		};
 
-  const renderPage = () => {
-    switch(currentPage) {
-      case 'home':
-        return <Home />;
-      case 'privacy':
-        return <PrivacyPolicy />;
-      case 'terms':
-        return <TermsOfService />;
-      default:
-        return <Home />;
-    }
-  };
+		const handlePathChange = () => {
+			updatePageFromPath();
+		};
 
-  return (
-    <div className="App">
-      <Navbar setCurrentPage={setCurrentPage} />
-      {renderPage()}
-    </div>
-  );
+		window.addEventListener('popstate', handlePopState);
+		window.addEventListener('pathchange', handlePathChange);
+		return () => {
+			window.removeEventListener('popstate', handlePopState);
+			window.removeEventListener('pathchange', handlePathChange);
+		};
+	}, []);
+
+	const renderPage = () => {
+		switch (page) {
+			case 'dashboard':
+				return <Dashboard />;
+			case 'privacy':
+				return <PrivacyPolicy />;
+			case 'terms':
+				return <TermsOfService />;
+			default:
+				return <Home />;
+		}
+	};
+
+	return (
+		<div className="app-root">
+			<Navbar />
+			<main>{renderPage()}</main>
+		</div>
+	);
 }
 
 export default App;

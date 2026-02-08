@@ -3,8 +3,10 @@
     "title": "Rynetic",
     "subtitle": "Advanced Moderation & Fun Discord Bot",
     "description": "Keep your server safe and fun with powerful moderation tools and entertaining commands. Rynetic has everything you need.",
+    "badgeText": "Advanced Discord Bot",
+    "featuresSubtitle": "Powerful commands and features for your server",
     "addButton": "Add to Server",
-    "voteButton": "Vote Bot",
+    "voteButton": "Vote Rynetic",
     "commands": "Available Commands",
     "help": "General Help",
     "helpDescription": "Get help with basic bot commands and usage",
@@ -20,6 +22,14 @@
     "languageDescription": "Change bot language and preferences",
     "dashboard": "Dashboard",
     "dashboardDescription": "Manage bot settings and server configuration",
+    "statsLabel1": "Help Categories",
+    "statsNumber1": "7+",
+    "statsLabel2": "Free to Use",
+    "statsNumber2": "100%",
+    "statsLabel3": "Always Online",
+    "statsNumber3": "24/7",
+    "ctaTitle": "Ready to get started?",
+    "ctaDescription": "Join thousands of servers using Rynetic",
     "footer": "© 2026 Rynetic. A powerful Discord bot for every server."
   }
 }
