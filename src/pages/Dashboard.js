@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import en from '../locales/en.json';
-import tr from '../locales/tr.json';
-import it from '../locales/it.json';
-import ru from '../locales/ru.json';
 import './Dashboard.css';
 
 const SettingsIcon = () => (
