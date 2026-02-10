@@ -1,10 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [languageDropdown, setLanguageDropdown] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState(localStorage.getItem('language') || 'en');
+  const languageRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (languageRef.current && !languageRef.current.contains(event.target)) {
+        setLanguageDropdown(false);
+      }
+    };
+
+    if (languageDropdown) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [languageDropdown]);
 
   const languages = {
     en: 'English',
@@ -35,7 +53,7 @@ const Navbar = () => {
         </a>
 
         {/* Menu Button */}
-        <button 
+        <button
           className={`hamburger ${isOpen ? 'active' : ''}`}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
@@ -84,8 +102,8 @@ const Navbar = () => {
               Terms
             </a>
           </li>
-          <li className="navbar-item language-selector-item">
-            <button 
+          <li className="navbar-item language-selector-item" ref={languageRef}>
+            <button
               className="navbar-link language-toggle"
               onClick={() => setLanguageDropdown(!languageDropdown)}
               aria-label="Select language"
